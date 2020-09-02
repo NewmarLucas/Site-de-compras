@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#generalContainer {
+    display: grid;
+    grid-template-columns: 15fr 75fr;
+
+}
+
+header {
+    background-color: #000;
+    width: 100%;
+    height: 110px;
+    padding: 15px 0px;
+    color: white;
+    display: grid;
+    grid-template-columns: 20fr 18fr 18fr 18fr 18fr;
+    align-items: center;
+}
+
+img {
+    height: 110px;
+    width: 150px;
+}
+
+#menus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    border-left: 1px solid #aaa;
+}
+
+#sideBar {
+    background-color: #000;
+    margin-left: 0px;
+    height:800px;
+    max-width: 200px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#sideBar img {
+    height: 120px;
+    width: 120px;
+}
+
+#user {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+#user h3 {
+    margin: 10px;
+}
+
+#user h4 {
+    margin-top: 10px;
+}
+
+#info {
+    font-family: 'Roboto', sans-serif;
+}
+
+#info h1 {
+    font-size: 40pt;
+}
+
+#info h3 {
+    font-size: 15pt;
+    padding: 0px 15px;
+}
+
+
+#shopping {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    border-top: 1px solid #FFF;
+}
+
+#shopping a {
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 0px;
+}
+
+#content img {
+    height: 250px;
+    width: 1000px;
+}
+
+footer {
+    background-color: #000;
+    color: white;
+    font-weight: bold;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
