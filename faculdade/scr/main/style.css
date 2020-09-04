@@ -16,12 +16,35 @@ a {
 header {
     background-color: #000;
     width: 100%;
-    height: 110px;
-    padding: 15px 0px;
+    height: 123px;
+    padding: 18px 0px 20px 0px;
     color: white;
     display: grid;
-    grid-template-columns: 20fr 18fr 18fr 18fr 18fr;
+    grid-template-columns: 20fr 20fr 20fr 20fr 20fr;
     align-items: center;
+}
+
+#icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#icon-logo {
+    margin-left: 50px;
+}
+
+#icon img{
+    width: 75px;
+    height: 60px;
+}
+
+#icon h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18pt;
 }
 
 img {
